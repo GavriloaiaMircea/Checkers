@@ -1,0 +1,18 @@
+﻿Game created by:Gavriloaia Mircea
+Numele creatorului programului: Gavriloaia Mircea-Stefan
+
+Adresa de email instituțională: mircea.gavriloaia@student.unitbv.ro
+
+Grupa: 10LF222
+
+Jocul de dame este o versiune digitală a clasicului joc de strategie, reimaginat pentru a fi jucat pe calculator. Acesta este dezvoltat folosind modelul MVP (Model-View-Presenter) pentru a asigura o arhitectură curată și ușor de întreținut.
+
+Interfața utilizatorului este simplă și intuitivă, permitând jucătorilor să interacționeze ușor cu piesele de pe tablă. Piesele pot fi de două culori: roșii și albe, fiecare jucător având piese de o singură culoare. Scopul jocului este de a captura toate piesele adversarului sau de a bloca mișcările posibile ale acestuia, determinând astfel câștigătorul.
+
+Funcționalități cheie includ:
+
+Salvarea și încărcarea jocurilor: Jucătorii pot salva progresul jocului la orice moment și îl pot încărca ulterior pentru a continua partida.
+Resetarea jocului: Permite jucătorilor să înceapă o nouă partidă oricând doresc.
+Turnul jucătorilor: Jocul urmărește și afișează cine este la rând, schimbându-se automat după fiecare mișcare validă.
+Determinarea câștigătorului: Jocul detectează automat când un jucător a câștigat, fie prin capturarea tuturor pieselor adversarului, fie când adversarul nu mai are mutări legale.
+Suport pentru piese de tip "Rege": Piesele pot fi promovate la statutul de "Rege" când ajung la capătul opus al tablei, dobândind astfel capacitatea de a se mișca și în diagonală inversă.
